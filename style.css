@@ -22,25 +22,15 @@ header
 	display: flex;
 }
 
-
-
-.photo-presentation {
-	display: flex;
-    width: 30%;
-    min-width:30%; 
-    justify-content: center;
-    align-items: center;
-    background-color: #feca07;
-}
-
 .my-photo
 {
-	width: 180px;
-	height: 180px;
+	width: 200px;
+	height: 200px;
 	border: 1px solid #daaf12;
     border-radius: 100%;
-    overflow: hidden;
     object-fit: cover;
+    display: flex;
+    margin: auto;
 }
 
 .title
