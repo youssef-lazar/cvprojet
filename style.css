@@ -75,13 +75,15 @@ h1
     padding-left: 0;
     padding-right: 0;
     text-align: justify;
-	width: 300px;
+	width: 30%;
 }
 
 #principal
 {
     flex: 2;
     margin-top: -33px;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 .contact
