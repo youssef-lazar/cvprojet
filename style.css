@@ -124,17 +124,15 @@ h1
 .mes-loisirs {
 	display: flex;
 	justify-content: space-around;
-	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .mes-loisirs>i
 {
-	width: 20px;
-	height: 20px;
-	border: 2px solid #daaf12;
+	border: 3px solid #4a4a4a;
     border-radius: 100%;
-    transform: scale(1);
-    transition: all 600ms 100ms;
+    font-size: 35px;
+    padding: 15px;
 }
 
 .formation-title, .experience-title, .recommandation-title
@@ -163,6 +161,7 @@ h4
 	color: #feca07;
 	background: #404040;
 	text-align: center;
+	padding: 5px;
 }
 
 ul
