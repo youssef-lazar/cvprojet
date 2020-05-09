@@ -86,13 +86,13 @@ h1
 	height: 15%;
 	overflow:visible;
 	margin-bottom: 10em;
-	text-align: left;
-	padding-left: 20px;
 }
 
-.contact>p
+.contact>div
 {
     margin: 1em 2em;
+    text-align: left;
+	padding-left: 20px;
 }
 
 
