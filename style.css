@@ -146,12 +146,12 @@ h4
 }
 
 
-/******************** Partie Droite *****************/
+/******************** Partie Principale*****************/
 
 
 .formation-title, .experience-title, .recommandation-title
 {
-	font-size: 1.3em;
+	font-size: 1.1em;
 	text-transform: uppercase;
 	margin-top: 17px;
 	padding-bottom: 5px;
@@ -181,5 +181,22 @@ li
 	align-items: baseline;
 }
 
+#principal icone
+{
+	margin-right: 30px;
+	font-size: 30px;
+	color: #feca07;
+}
+
+.date-lieu
+{
+	width: 25%;
+
+}
+
+.description
+{
+	width: 75%
+}
 /************************************************************/
 
