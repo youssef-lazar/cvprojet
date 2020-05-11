@@ -81,6 +81,8 @@ h1
     margin-left: 25px;
 }
 
+/******************** Colonne *****************/
+
 .contact
 {
 	overflow:visible;
@@ -135,6 +137,18 @@ h1
     padding: 15px;
 }
 
+h4
+{
+	color: #feca07;
+	background: #404040;
+	text-align: center;
+	padding: 5px;
+}
+
+
+/******************** Partie Droite *****************/
+
+
 .formation-title, .experience-title, .recommandation-title
 {
 	font-size: 1.3em;
@@ -156,17 +170,15 @@ em
 	color: #feca07;
 }
 
-h4
-{
-	color: #feca07;
-	background: #404040;
-	text-align: center;
-	padding: 5px;
-}
-
 ul
 {
 	list-style-type: none;
+}
+
+li
+{
+	display: flex;
+	align-items: baseline;
 }
 
 /************************************************************/
