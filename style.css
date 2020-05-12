@@ -205,5 +205,16 @@ li
 {
 	width: 75%
 }
+
+.recommandations-contact
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+.reco-part
+{
+	width: 45%;
+}
 /************************************************************/
 
