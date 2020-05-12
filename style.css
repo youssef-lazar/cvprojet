@@ -11,6 +11,12 @@ body
 	margin: 0;
 }
 
+body p
+{
+	font-size:15px;
+	
+}
+
 #bloc-complet
 {
 
@@ -82,6 +88,7 @@ h1
     margin-left: 25px;
 }
 
+
 /******************** Colonne *****************/
 
 .contact
@@ -109,16 +116,19 @@ h1
 {
 	display: flex;
 	flex-direction: column;
+	margin-top: 3em;
 }
 
 .moi>p
 {
     margin: 2em 2em;
+    font-size: 20px;
+    text-align: justify;
 }
 
 .loisirs
 {
-    padding-top:10em;
+    padding-top:2em;
     display: flex;
     flex-direction: column;
 
@@ -143,7 +153,13 @@ h4
 	color: #feca07;
 	background: #404040;
 	text-align: center;
-	padding: 5px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+a
+{
+	color: #4a4a4a;
 }
 
 
@@ -216,5 +232,18 @@ li
 {
 	width: 45%;
 }
-/************************************************************/
 
+
+
+
+/* Responsive moins de 785px  */
+
+@media all and (max-width: 785px)
+
+
+
+
+
+
+
+/************************************************************/
