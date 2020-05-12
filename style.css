@@ -39,6 +39,15 @@ header
 	display: flex;
 }
 
+.photo
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #feca07;
+	width: 30%;
+}
+
 .my-photo
 {
 	width: 200px;
@@ -46,14 +55,11 @@ header
 	border: 1px solid #daaf12;
     border-radius: 100%;
     object-fit: cover;
-    display: flex;
-    margin: auto;
 }
 
 .title
 {
 	width: 70%;
-	margin: 80px 0 50px 0;
 	padding-right: 5%;
 	padding-left: 5%;
 }
@@ -182,6 +188,11 @@ a
 	border-bottom: solid 2px #feca07;
 	display: flex;
 	align-items: center;
+}
+
+.formation
+{
+	margin-top: 40px;
 }
 
 em
