@@ -257,9 +257,9 @@ li
 {
 /****** Bloc complet ******/
 	
-#all
+#bloc-complet
 {
-	max-width: 100%;
+	overflow: hidden;
 }
 	
 body p
@@ -282,8 +282,8 @@ body p
 
 .my-photo
 {
-    width: 80px;
-    height: 80px;
+    width: 85px;
+    height: 85px;
 	border: 1px solid black;
 }
 
@@ -410,7 +410,7 @@ li
 .description
 {
 	width: 75%;
-	margin-right: 30px;
+	margin-right: 60px;
 }
 	
 h3
@@ -420,7 +420,8 @@ h3
 
 .reco-part
 {
-	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
  }
