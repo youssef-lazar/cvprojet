@@ -405,6 +405,12 @@ li
 	width: 25%;
 }
 
+.ville
+{
+	text-indent: none;
+	text-align-last: center;
+}
+
 .description
 {
 	width: 75%;
